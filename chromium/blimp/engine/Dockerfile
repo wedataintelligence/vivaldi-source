@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190515
 
 # Run the command below to update the lib list.
 # ldd ./blimp_engine_app | grep usr/lib | awk '{print $3}' | xargs -n1 \
